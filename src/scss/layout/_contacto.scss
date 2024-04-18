@@ -48,5 +48,12 @@
 
 .foto{
     padding: 0;
-    width: auto;   
+    width: auto; 
+    transition: transform 1,5s; 
+        
+    &:hover {
+        transform: matrix(1, 0.5, -0.5, 1, 0, 0);
+        filter: grayscale(80%);
+    }
 }
+

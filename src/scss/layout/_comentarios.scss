@@ -1,8 +1,8 @@
 .comentarios{
-    background-color:$negro ;
+    background-color:$gris ;
     font-size: 2.4rem;
     padding: 2rem;
-    color: $blanco;
+    color: $negro;
     border-radius: 2rem;
 
     blockqoute{
@@ -11,15 +11,14 @@
 
         &::before{
             content: '';
-            background-image: url('img/qoutation.png');
-            background-repeat: no-repeat;
             width: 6rem;
             height: 8rem;
             display: block;
             position: absolute;
+            
         }
     }
     p{
-        color: white;
+        color:red;
     }
 }
